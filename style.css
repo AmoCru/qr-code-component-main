@@ -1,0 +1,50 @@
+body {
+  background-color: hsl(212, 45%, 89%);
+}
+
+#container {
+  background-color: #FFFFFF;
+  width: 50%;
+  margin: auto;
+  margin-top: 2rem;
+  border-radius: 1rem;
+  max-width: 400px;
+}
+
+#qr-code {
+  text-align: center;
+  padding: 1rem 1rem 0;
+}
+
+img {
+  width: 100%;
+  border-radius: 1rem;
+}
+
+@font-face {
+  font-family: 'Outfit';
+  src: url('fonts/Outfit-VariableFont_wght.ttf');
+}
+
+#text {
+  text-align: center;
+  padding: 1.5rem 3rem 3rem;
+  font-family: 'Outfit';
+  letter-spacing: 0.13px
+}
+
+#text > div + div {
+  margin-top: 1rem;
+}
+
+#title {
+  color: hsl(218, 44%, 22%);
+  font-size:x-large;
+  font-weight: 700;
+}
+
+#description {
+  color: hsl(220, 15%, 55%);
+  font-size: 15px;
+  font-weight: 400;
+}
